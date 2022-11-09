@@ -1,0 +1,8 @@
+SUBDESIGN 'Lab2_var6'
+(
+A, B, C, D: input;
+Y: output;
+)
+BEGIN
+Y = (!C AND D) OR (B AND (C XOR A));
+END; 
